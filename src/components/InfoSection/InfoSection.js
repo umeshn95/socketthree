@@ -59,7 +59,7 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}</Heading>
                 
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/contactus' onClick={() => {window.location.href="/contactus"}}>
+                <Link to='/contactus'>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

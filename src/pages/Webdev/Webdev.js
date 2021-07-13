@@ -1,5 +1,6 @@
 import React from 'react';
 import { Counter, InfoSection } from '../../components';
+import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree,homeObjTwo,homeObjOne } from './Data';
 
 function Webdev() {
@@ -9,6 +10,7 @@ function Webdev() {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjOne} />
       <Counter></Counter>
+      <ScrollToTop></ScrollToTop>
     </>
   );
 }

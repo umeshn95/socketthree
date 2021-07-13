@@ -1,5 +1,6 @@
 import React from 'react';
 import { Counter, Custom, InfoSection } from '../../components';
+import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
 
 function Digimarket() {
@@ -13,7 +14,7 @@ function Digimarket() {
       <InfoSection {...homeObjOne} />
       <Custom></Custom>
 
-
+<ScrollToTop></ScrollToTop>
 
     </>
   );

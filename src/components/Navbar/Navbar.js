@@ -43,7 +43,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: 'green' }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to='/' onClick={closeMobileMenu} onClick={() => {window.location.href="/"}}>
+            <NavLogo to='/' onClick={closeMobileMenu}>
             <img src={zetalogo} style={{height:'50px', width:'50px'}}></img>
               <span style={{color:'#867AE9'}} >Zeta</span>
               <span style={{color:'#E5D549', marginLeft:'5px'}}>Monk</span>
@@ -53,33 +53,33 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu} onClick={() => {window.location.href="/"}}>
+                <NavLinks to='/' onClick={closeMobileMenu}>
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu} onClick={() => {window.location.href="/services"}}>
+                <NavLinks to='/services' onClick={closeMobileMenu}>
                   Services
                 </NavLinks>
                 
               </NavItem>
               <NavItem>
-                <NavLinks to='/about' onClick={closeMobileMenu} onClick={() => {window.location.href="/about"}}>
+                <NavLinks to='/about' onClick={closeMobileMenu}>
                   About
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu} onClick={() => {window.location.href="/products"}}>
+                <NavLinks to='/products' onClick={closeMobileMenu}>
                   Products
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/contactus' onClick={() => {window.location.href="/contactus"}}>
+                  <NavBtnLink to='/contactus'>
                     <Button primary>Contact Us</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/contactus' onClick={() => {window.location.href="/contactus"}}>
+                  <NavBtnLink to='/contactus'>
                     <Button onClick={closeMobileMenu} fontBig primary>
                       Contact Us
                     </Button>

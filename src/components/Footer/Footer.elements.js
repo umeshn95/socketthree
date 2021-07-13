@@ -107,7 +107,7 @@ export const FooterLinkTitle = styled.h2`
   margin-bottom: 18px;
 `;
 
-export const FooterLink = styled.a`
+export const FooterLink = styled(Link)`
   color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;

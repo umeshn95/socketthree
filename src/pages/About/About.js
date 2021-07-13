@@ -1,5 +1,6 @@
 import React from 'react';
 import { AboutSecret, Counter, Custom, InfoSection, TechStack,GoToTop} from '../../components';
+import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
 
 
@@ -15,6 +16,8 @@ function About() {
       <Counter></Counter>
 
     <AboutSecret></AboutSecret>
+
+    <ScrollToTop></ScrollToTop>
     </>
   );
 }

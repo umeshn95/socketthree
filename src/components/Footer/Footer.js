@@ -73,28 +73,28 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/about' onClick={() => {window.location.href="/about"}}>About us</FooterLink>
-            <FooterLink to='/about' onClick={() => {window.location.href="/about"}} >What We Do</FooterLink>
-            <FooterLink to='/whatwedo' onClick={() => {window.location.href="/whatwedo"}} >Who We Are</FooterLink>
-            <FooterLink to='/contactus' onClick={() => {window.location.href="/contactus"}} >Career</FooterLink>
-            <FooterLink to='/contactus' onClick={() => {window.location.href="/contactus"}} >Contact Us</FooterLink>
+            <FooterLink to='/about'>About us</FooterLink>
+            <FooterLink to='/about' >What We Do</FooterLink>
+            <FooterLink to='/whatwedo' >Who We Are</FooterLink>
+            <FooterLink to='/contactus'  >Career</FooterLink>
+            <FooterLink to='/contactus' >Contact Us</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Technology</FooterLinkTitle>
-            <FooterLink to='/technology' onClick={() => {window.location.href="/technology"}}>JavaScript</FooterLink>
-            <FooterLink to='/technologyp' onClick={() => {window.location.href="/technologyp"}}>Python</FooterLink>
-            <FooterLink to='/technologys' onClick={() => {window.location.href="/technologys"}}>SQL</FooterLink>
-            <FooterLink to='/technologyD' onClick={() => {window.location.href="/technologyD"}}>Django</FooterLink>
+            <FooterLink to='/technology' >JavaScript</FooterLink>
+            <FooterLink to='/technologyp'>Python</FooterLink>
+            <FooterLink to='/technologys' >SQL</FooterLink>
+            <FooterLink to='/technologyD' >Django</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Services</FooterLinkTitle>
-            <FooterLink to='/webdev' onClick={() => {window.location.href="/webdev"}}>Web Development</FooterLink>
-            <FooterLink to='/chatbot' onClick={() => {window.location.href="/chatbot"}}>Chatbot Development</FooterLink>
-            <FooterLink to='/schoolmanage' onClick={() => {window.location.href="/schoolmanage"}}>UI/UX Design</FooterLink>
-            <FooterLink to='/mobile' onClick={() => {window.location.href="/mobile"}}>Mobile Development</FooterLink>
-            <FooterLink to='/digitalmarket' onClick={() => {window.location.href="/digitalmarket"}}>Digital Marketing</FooterLink>
+            <FooterLink to='/webdev' >Web Development</FooterLink>
+            <FooterLink to='/chatbot' >Chatbot Development</FooterLink>
+            <FooterLink to='/schoolmanage' >UI/UX Design</FooterLink>
+            <FooterLink to='/mobile' >Mobile Development</FooterLink>
+            <FooterLink to='/digitalmarket' >Digital Marketing</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -106,7 +106,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to='/' onClick={() => {window.location.href="/"}}>
+          <SocialLogo to='/'>
           <img src={zetalogo} style={{height:'50px', width:'50px'}}></img>
             
           <span style={{color:'#867AE9'}} >Zeta</span>
@@ -156,7 +156,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
                     Your Request has been submitted we will get back to you soon to give details on your project.
                 </Feedbackreply>
                 <Feedbackhome>
-                  <Button1 to='/' onClick={() => {window.location.href="/"}}>   <span style={{color:'#867AE9'}} >Zeta</span>
+                  <Button1 to='/'>   <span style={{color:'#867AE9'}} >Zeta</span>
                    <span style={{color:'#E5D549', marginLeft:'5px'}}>Monk</span>.com</Button1>
                 </Feedbackhome>
 

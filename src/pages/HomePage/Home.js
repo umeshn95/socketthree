@@ -1,6 +1,7 @@
 import React from 'react';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import { InfoSection, Pricing } from '../../components';
+import ScrollToTop from '../../components/ScrollToTop';
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <Pricing />
-      {/* <InfoSection {...homeObjFour} /> */}
+      <ScrollToTop></ScrollToTop>
     </>
   );
 }
