@@ -37,6 +37,9 @@ const saveUser=(show)=>{
  if(!company){
     setValidcompany('*Required')
    }
+ if(!about){
+    setAbout('none')
+   }
    else{
        let data = {name,company,email,about,msg};
        fetch('https://visheshsolanki.pythonanywhere.com//api/create/',{
