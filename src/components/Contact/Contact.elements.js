@@ -193,6 +193,8 @@ justify-self:center;
 overflow:wrap;
 @media only screen and (max-width:550px){
     justify-self:start;
+    margin-top:10px;    
+
     
 }
 
@@ -200,9 +202,9 @@ overflow:wrap;
 export const ContactAsk = styled.div`
 align-self:center;
 justify-self:center;
-overflow:wrap;
 @media only screen and (max-width:550px){
-display:none;
+    justify-self:start;
+    margin-top:10px;    
 }
 
 `
@@ -210,11 +212,10 @@ export const ContactHelp = styled.div`
 align-self:center;
 justify-self:center;
 padding:10px;
-overflow:wrap;
 @media only screen and (max-width:550px){
     justify-self:start;
-    padding-left:0px;
-    
+margin-top:0px;    
+margin-left: -10px;
 }
 
 
