@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const CustomMain = styled.div`
-background: linear-gradient(248deg, #424874 0%, #424874 100%);
+  background: linear-gradient(248deg, #424874 0%, #424874 100%);
 
-padding:30px;
-height:auto;
+  padding: 30px;
+  height: auto;
 
-
-
-`
+  @media only screen and (max-width: 768px) {
+    padding: 0px;
+  }
+`;
 
 export const CustomGrid = styled.div`
 display:grid;
