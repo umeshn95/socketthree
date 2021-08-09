@@ -44,7 +44,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-            <img src={zetalogo} style={{height:'50px', width:'50px'}}></img>
+            <img src={zetalogo} style={{height:'45px', width:'45px'}}></img>
               <span style={{color:'#867AE9'}} >Zeta</span>
               <span style={{color:'#E5D549', marginLeft:'5px'}}>Monk</span>
             </NavLogo>

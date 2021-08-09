@@ -5,12 +5,6 @@ export const InfoSec = styled.div`
   padding: 160px 0;
   background: ${({ lightBg }) => (lightBg ? '#15b9a9' : 'white')};
   
-  // background: ${({ lightBg }) => (lightBg ? 'linear-gradient(248deg, #2193b0  0%, rgba(49, 77, 255, 1) 100%)' : 'white')};
-  // background-image: url('https://image.freepik.com/free-vector/abstract-equalizer-waves-background_1393-353.jpg');
-
-  /*background: transparent linear-gradient(248deg, rgba(225, 27, 194, 1) 0%, rgba(49, 77, 255, 1) 100%) 0% 0% no-repeat;*/
-linear
-  
 `;
 
 export const InfoRow = styled.div`
@@ -31,7 +25,7 @@ export const InfoColumn = styled.div`
   max-width: 50%;
   flex-basis: 50%;
   
- \
+ 
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -58,7 +52,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -93,7 +87,6 @@ export const Subtitle = styled.p`
 
 
 export const Smallimg = styled.img`
-
   padding-right: 0;
   border: 0;
   max-width: 50%;
