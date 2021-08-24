@@ -2,9 +2,13 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#15b9a9' : 'white')};
-  
+  padding: 160px 0px;
+  background-color: ${({ lightBg }) => (lightBg ? 'white' : 'white')};
+  background-image:  url(${process.env.PUBLIC_URL + '/dots.svg'}),url(${process.env.PUBLIC_URL + '/circle.svg'});
+  background-repeat:no-repeat, no-repeat;
+  background-position: 4% 70px, 99% -70px;
+  background-size:100px 300px;
+  position:relative;
 `;
 
 export const InfoRow = styled.div`

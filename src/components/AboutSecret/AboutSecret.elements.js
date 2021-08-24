@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const AboutSecrSection = styled.div`
-padding:150px;
-background: linear-gradient(248deg, #424874 0%, #424874 100%);
+padding:100px;
+background:#6135A1;
 @media screen and (max-width: 768px) {
   padding:10px;
 }

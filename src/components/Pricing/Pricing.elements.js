@@ -2,11 +2,15 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const PricingSection = styled.div`
-  background: linear-gradient(248deg, #424874 0%, #424874 100%);
+  font-family: 'Arvo', serif;
+
+  background:white;
   padding: 80px 0 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  top:0px;
+  position:relative;
 `;
 
 export const PricingWrapper = styled.div`
@@ -24,9 +28,10 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #F7F7F7;
+  color: black;
   font-size: 48px;
   margin-bottom: 24px;
+  opacity:0.5;
 `;
 
 export const PricingContainer = styled.div`
@@ -44,12 +49,14 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
+
   background-color:white;   
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   width: 340px;
+  border:1px solid gray;
   height: 380px;
   text-decoration: none;
-  border-radius: 37px;
+  border-radius: 10px;
 
   &:nth-child(2) {
     margin: 24px;
@@ -81,13 +88,16 @@ export const PricingCardInfo = styled.div`
 
 export const PricingCardIcon = styled.div`
   margin: 24px 0;
+  opacity:0.5;
 `;
 
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 34px;
   // max-width:200px;
-  text-align:center
+  text-align:center;
+  opacity:0.5;
+
 `;
 
 export const PricingCardCost = styled.h4`
@@ -128,5 +138,4 @@ export const Img = styled.img`
 `;
 
 export const PricingCar = styled(Link)`
-
 `

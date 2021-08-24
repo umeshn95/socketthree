@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contact } from '../../components';
+import { Contact, Contact_details } from '../../components';
 
 import { InfoSection } from '../../components';
 import ScrollToTop from '../../components/ScrollToTop';
@@ -10,6 +10,7 @@ function SignUp() {
   return (
     <>
     <Contact {...contactObj}></Contact >
+    <Contact_details></Contact_details>
       <InfoSection {...homeObjThree} />
       <ScrollToTop></ScrollToTop>
     </>

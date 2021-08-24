@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: white;
+  background:#6135A1; 
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight:bold;
-  position: sticky;
+
   top: 0;
   z-index: 999;
 `;
@@ -68,7 +68,8 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: white;
+  background:#6135A1; 
+    
   }
 `;
 
@@ -100,7 +101,8 @@ export const NavItemBtn = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -121,6 +123,7 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavBtnLink = styled(Link)`
+
   display: flex;
   justify-content: center;
   align-items: center;

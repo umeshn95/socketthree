@@ -3,14 +3,15 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #DCD6F7;
+  background-color: #6135A1;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-display: ${({ show }) => (show ? '' : 'none')};
-
+  display: ${({ show }) => (show ? "" : "none")};
+  position: relative;
+  top: 0px;
 `;
 
 export const FooterSubscription = styled.section`
@@ -21,7 +22,7 @@ export const FooterSubscription = styled.section`
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: #000;
+  color: #fff;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -54,7 +55,7 @@ export const FormInput = styled.input`
   outline: none;
   border: none;
   font-size: 16px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   
 
   &::placeholder {
@@ -94,7 +95,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 160px;
   box-sizing: border-box;
-  color: #000;
+  color: #fff;
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -108,11 +109,11 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled(Link)`
-  color: #000;
+  color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-weight:bold;
   cursor:pointer;
+  
 
 
   &:hover {
@@ -155,7 +156,7 @@ export const SocialIcon = styled(FaMagento)`
 `;
 
 export const WebsiteRights = styled.small`
-  color: #000;
+  color: #fff;
   margin-bottom: 16px;
 `;
 

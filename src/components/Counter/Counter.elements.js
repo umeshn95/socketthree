@@ -6,9 +6,11 @@ padding:110px 110px 20px 110px;
 display:block; 
 position:relative; 
 height:400px;
+margin-top:150px;
 @media screen and (max-width: 768px) {
     padding:0;
     height:auto;
+    margin-top:1300px;
 }
 
 

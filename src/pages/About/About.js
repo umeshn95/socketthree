@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutSecret, Counter, Custom, InfoSection, TechStack,GoToTop} from '../../components';
+import { AboutSecret, Counter, Custom, InfoSection, TechStack,GoToTop, Aboutus, Whatwedo} from '../../components';
 import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
 
@@ -7,15 +7,16 @@ import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
 function About() {
   return (
     <>
-      <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjOne} />
 
-      <InfoSection {...homeObjTwo} />
-
+      <InfoSection {...homeObjTwo} /> */}
+  <Aboutus></Aboutus>
       
 
       <Counter></Counter>
 
     <AboutSecret></AboutSecret>
+    <Whatwedo></Whatwedo>
 
     <ScrollToTop></ScrollToTop>
     </>

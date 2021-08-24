@@ -12,7 +12,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  Smallimg,
+ 
   ImgWrapper,
   Img,
   
@@ -30,7 +30,7 @@ function InfoSection({
   buttonLabel,
   img,
   smallimg,
-  imgpolygon,
+
   alt,
   imgStart,
   start,
@@ -46,11 +46,7 @@ function InfoSection({
         <Container>
           <InfoRow imgStart={imgStart} >
             <InfoColumn>
-              <InfoColumn>
-              <Smallimg src={smallimg} alt={alt} />
-              <Smallimg src={smallimg} alt={alt} />
               
-              </InfoColumn>
             
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>

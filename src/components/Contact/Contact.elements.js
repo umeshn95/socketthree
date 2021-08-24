@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const ContactSec = styled.div`
 color: #fff;
 padding:60px;
-background: #BBBFCA;
+background: #fff;
 display: ${({ show }) => (show ? '' : 'none')};
 
 @media only screen and (max-width:550px){
@@ -44,6 +44,7 @@ grid-template-rows:0.1fr 0.1fr;
 export const ContactForm = styled.div`
 display:grid;
 grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 background:white;
 border-radius: 50px;
@@ -177,7 +178,7 @@ outline:none;
 padding: 12px 20px;
 font-size:16px;
 background-color:#CEE5D0;
-border:none;
+border:0.5px solid rgba(0,0,0,0.1);
 overflow:wrap;
 @media only screen and (max-width:550px){
     width: ${({ big }) => (big ? '250px' : '250px')};

@@ -72,22 +72,32 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
+            <FooterLinkTitle> <img src={zetalogo} style={{height:'25px', width:'25px'}}></img>
+            
+            <span style={{color:'#867AE9'}} >Zeta</span>
+                <span style={{color:'#E5D549', marginLeft:'5px'}}>Monk</span></FooterLinkTitle>
+            <FooterLink to='/' style={{fontSize:'15px'}}>ZetaMonk is  a boutique digital transformation consultancy & software development company that provides IT solutions.We have Clients All over the world.</FooterLink>
+           
+          </FooterLinkItems>
+          <FooterLinkItems>
+            <FooterLinkTitle>Contacts</FooterLinkTitle>
+            <FooterLink to='/' style={{fontSize:'15px'}}>Address:
+            8th cross, Neeladri Nagar, Electronic City phase 1, Bangalore 560100, INDIA</FooterLink>
+            <FooterLink to='/' style={{fontSize:'15px'}}>Email:
+contact@zetamonk.com</FooterLink>
+            <FooterLink to='/' style={{fontSize:'15px'}}>Phone:
++91 9540424976</FooterLink>
+            
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
+        <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/about'>About us</FooterLink>
             <FooterLink to='/about' >What We Do</FooterLink>
             <FooterLink to='/whatwedo' >Who We Are</FooterLink>
-            <FooterLink to='/contactus'  >Career</FooterLink>
             <FooterLink to='/contactus' >Contact Us</FooterLink>
           </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Technology</FooterLinkTitle>
-            <FooterLink to='/technology' >JavaScript</FooterLink>
-            <FooterLink to='/technologyp'>Python</FooterLink>
-            <FooterLink to='/technologys' >SQL</FooterLink>
-            <FooterLink to='/technologyD' >Django</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-        <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Services</FooterLinkTitle>
             <FooterLink to='/webdev' >Web Development</FooterLink>
@@ -96,12 +106,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
             <FooterLink to='/mobile' >Mobile Development</FooterLink>
             <FooterLink to='/digitalmarket' >Digital Marketing</FooterLink>
           </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink href='/'>LinkedIn</FooterLink>
-            <FooterLink href='/'>Twitter</FooterLink>
-            <FooterLink href='https://www.youtube.com/results?search_query=zetamonk'>Youtube</FooterLink>
-          </FooterLinkItems>
+        
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
@@ -113,7 +118,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
               <span style={{color:'#E5D549', marginLeft:'5px'}}>Monk</span>
           </SocialLogo>
           <WebsiteRights>ZetaMonk © 2021</WebsiteRights>
-          <SocialIcons>
+          {/* <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
@@ -136,7 +141,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
             <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
