@@ -9,7 +9,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top:0px;
+  top:20px;
   position:relative;
 `;
 

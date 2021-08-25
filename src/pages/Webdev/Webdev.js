@@ -9,7 +9,6 @@ function Webdev() {
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjOne} />
-      <Counter></Counter>
       <ScrollToTop></ScrollToTop>
     </>
   );

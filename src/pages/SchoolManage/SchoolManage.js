@@ -7,7 +7,6 @@ function SchoolManage() {
   return (
     <>
       <InfoSection {...homeObjThree} />
-      <Counter></Counter>
       <InfoSection {...homeObjTwo} />
       {/* <InfoSection {...homeObjOne} /> */}
       <TechStack></TechStack>

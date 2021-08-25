@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CustomMain = styled.div`
-  background: linear-gradient(248deg, #424874 0%, #424874 100%);
+  background: white;
 
   padding: 30px;
   height: auto;
@@ -29,6 +29,8 @@ padding:10px;
 `
 
 export const CustomSubgrid1 = styled.div`
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
+
 font-size:20px;
 justify-self:center;
 align-self:center;
@@ -42,6 +44,7 @@ border-radius:10px;
 
 export const CustomSubgrid2 = styled.div`
 font-size:20px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 justify-self:center;
 align-self:center;
@@ -59,6 +62,7 @@ border-radius:10px;
 
 export const CustomSubgrid3 = styled.div`
 font-size:20px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 justify-self:center;
 align-self:center;
@@ -71,6 +75,7 @@ border-radius:10px;
 `
 export const CustomSubgrid4 = styled.div`
 font-size:20px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 justify-self:center;
 align-self:center;
@@ -84,6 +89,7 @@ border-radius:10px;
 `
 export const CustomSubgrid5 = styled.div`
 font-size:20px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 justify-self:center;
 align-self:center;
@@ -96,6 +102,7 @@ border-radius:10px;
 `
 export const CustomSubgrid6 = styled.div`
 font-size:20px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09), 0 10px 24px 0 rgba(0, 0, 0, 0.09);
 
 justify-self:center;
 align-self:center;

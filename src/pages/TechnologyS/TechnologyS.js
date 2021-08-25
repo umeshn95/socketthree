@@ -14,7 +14,6 @@ function TechnologyS() {
 
       
 
-      <Counter></Counter>
 <GoTosql></GoTosql>
     </>
   );

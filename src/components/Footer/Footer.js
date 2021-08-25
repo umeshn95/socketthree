@@ -59,7 +59,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
   return (
     <>
     <FooterContainer show={show}>
-      <FooterSubscription>
+      {/* <FooterSubscription>
         <FooterSubHeading>
           Connect Us for exclusive Pricing and to receive the latest Development news and trends
         </FooterSubHeading>
@@ -68,7 +68,7 @@ fetch('https://visheshsolanki.pythonanywhere.com/api/email/',{
           <FormInput  type='email' placeholder='Your Email' onChange={(e)=>{setEmail(e.target.value)}}/>
           <Button onClick={subscribe} fontBig>Subscribe</Button>
           </Form>
-      </FooterSubscription>
+      </FooterSubscription> */}
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>

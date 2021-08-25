@@ -4,26 +4,24 @@ import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
   background-color: #6135A1;
-  padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: ${({ show }) => (show ? "" : "none")};
   position: relative;
-  top: 0px;
 `;
 
-export const FooterSubscription = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 24px;
-  padding: 24px;
-  color: #fff;
-`;
+// export const FooterSubscription = styled.section`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   margin-bottom: 24px;
+//   padding: 24px;
+//   color: #fff;
+// `;
 
 export const FooterSubHeading = styled.p`
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -91,9 +89,9 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 50px;
+  margin: 60px;
   text-align: left;
-  width: 160px;
+  width: 200px;
   box-sizing: border-box;
   color: #fff;
 
@@ -105,7 +103,7 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h2`
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 `;
 
 export const FooterLink = styled(Link)`

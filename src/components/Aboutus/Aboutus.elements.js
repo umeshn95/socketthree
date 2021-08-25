@@ -9,7 +9,6 @@ box-size:border-box;
 background:white;
 height:700px;
 width:100%;
-// top:200px;
 position:relative;
 font-family: 'Arvo', serif;
 @media screen and (max-width: 768px) {

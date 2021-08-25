@@ -6,9 +6,9 @@ function Counteranimation() {
     return (
         <Main>
             <MainGrid>
-                <Component state='HAPPY'customer='Clients' description='Our experience design arm, method, helps businesses'></Component>
-                <Component state='SATISFACTION'customer='Services' description='Our experience design arm, method, helps businesses'></Component>
-                <Component state='RETENTION' customer='Customers' description='Our experience design arm, method, helps businesses'></Component>
+                <Component state='HAPPY'customer='Clients' description=''></Component>
+                <Component state='SATISFACTION'customer='Services' description=''></Component>
+                <Component state='RETENTION' customer='Customers' description=''></Component>
             </MainGrid>
         </Main>
       

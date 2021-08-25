@@ -6,26 +6,25 @@ import { motion } from "framer-motion";
 export const Homepage1_main = styled.div`
   padding: 0px;
   margin: 0px;
-  margin-bottom:200px;
   height: 700px;
   background: #6135A1;
   @media screen and (max-width: 991px) {
     height: 500px;
   }
-  &:after {
-    position: absolute;
-    background: url(${process.env.PUBLIC_URL + "/wave.svg"}) bottom no-repeat;
-    background-size: cover;
-    content: "";
-    height: 323px;
-    width: 100%;
-    top: 100%;
-    left: 0px;
-    z-index: -1;
-    @media screen and (max-width: 991px) {
-      height: 100px;
-    }
-  }
+  // &:after {
+  //   position: absolute;
+  //   background: url(${process.env.PUBLIC_URL + "/wave.svg"}) bottom no-repeat;
+  //   background-size: cover;
+  //   content: "";
+  //   height: 323px;
+  //   width: 100%;
+  //   top: 100%;
+  //   left: 0px;
+  //   z-index: -1;
+  //   @media screen and (max-width: 991px) {
+  //     height: 100px;
+  //   }
+  // }
 `;
 
 export const Homepage1_sub = styled.div`
@@ -75,7 +74,7 @@ export const Homepage1_heading = styled(motion.div)`
     Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   @media screen and (max-width: 991px) {
-    font-size: 30px;
+    font-size: 17px;
     line-height: 1.2;
     padding:20px 40px 20px 40px;
     width:100%;
@@ -135,7 +134,7 @@ export const Homepage1_description = styled(motion.div)`
   padding: 0 60px 40px 60px;
  
   @media screen and (max-width: 991px) {
-    font-size: 17px;
+    font-size: 35px;
     padding:20px 40px 20px 40px;
     width:100%;
   }

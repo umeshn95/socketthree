@@ -9,7 +9,6 @@ function Chatbot() {
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <Counter></Counter>
       <ScrollToTop></ScrollToTop>
     </>
   );

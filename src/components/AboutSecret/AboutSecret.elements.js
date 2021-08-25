@@ -6,6 +6,7 @@ padding:100px;
 background:#6135A1;
 @media screen and (max-width: 768px) {
   padding:10px;
+  display:none;
 }
 `;
 export const Main = styled.div`

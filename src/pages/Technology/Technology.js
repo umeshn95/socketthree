@@ -15,7 +15,6 @@ function Technology() {
 
       
 
-      <Counter></Counter>
       <ScrollToTop></ScrollToTop>
 
     </>

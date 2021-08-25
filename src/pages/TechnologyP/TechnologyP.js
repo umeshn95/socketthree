@@ -14,7 +14,6 @@ function TechnologyP() {
 
       
 
-      <Counter></Counter>
 <GoToTop></GoToTop>
     </>
   );

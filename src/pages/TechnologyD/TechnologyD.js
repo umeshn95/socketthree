@@ -14,7 +14,6 @@ function TechnologyD() {
 
       
 
-      <Counter></Counter>
 <GoToDjango></GoToDjango>
     </>
   );
