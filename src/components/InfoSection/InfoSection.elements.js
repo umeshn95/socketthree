@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0px;
-  background-color: ${({ lightBg }) => (lightBg ? 'white' : 'white')};
+  background-color: ${({ lightBg }) => (lightBg ? '#6135A1' : 'white')};
   background-image:  url(${process.env.PUBLIC_URL + '/dots.svg'}),url(${process.env.PUBLIC_URL + '/circle.svg'});
   background-repeat:no-repeat, no-repeat;
   background-position: 4% 70px, 99% -70px;

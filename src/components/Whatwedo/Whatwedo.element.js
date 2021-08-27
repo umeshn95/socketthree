@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 
 
 export const Main = styled.div`
-margin-bottom:100px;
-padding:0;
+margin:0;
+padding:50px;
 
 box-size:border-box;
 background:white;
 height:700px;
 width:100%;
-top:200px;
 position:relative;
 font-family: 'Arvo', serif;
 @media screen and (max-width: 768px) {

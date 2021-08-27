@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const Main = styled.div`
-margin:0;
+margin-bottom:60px;
 padding:0;
 box-size:border-box;
 background:white;
