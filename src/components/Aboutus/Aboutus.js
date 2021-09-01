@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaAnchor } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import { motion } from "framer-motion";
 import {Link} from 'react-router-dom';
 import { AiOutlineSetting,AiOutlineBulb,AiOutlineCloudSync } from "react-icons/ai";
 import {About, Button,ButtonGrid, Description, Head, Headings, Logo, Longdescription, Main,MainGrid, Shortdescription, Subgrid1, Subgrid2, SuperSubgrid1} from './Aboutus.elements';
@@ -57,9 +56,9 @@ function Aboutus() {
             <MainGrid>
                 <Subgrid1>
 
-                <About>
+              <About>
                 
-                    About Us
+                About Us
                 </About>
                 <Headings>
                 Innovating with a Digital Mindset
@@ -81,7 +80,7 @@ function Aboutus() {
                     <SuperSubgrid1 initial="rest" whileHover="hover" animate="rest">
                         <Logo variants={logoMotion}><FaAnchor ></FaAnchor></Logo>
                         <Head variants={headingMotion}>
-Experience Design</Head>
+                        Experience Design</Head>
                         <Description variants={descriptionMotion} >
 
                         Design an engaging product that is easy-to-use, attractive and functional</Description>

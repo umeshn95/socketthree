@@ -1,8 +1,8 @@
 export const homeObjThree = {
     lightBg: true,
-    lightText: false,
-    lightTopLine: false,
-    lightTextDesc: false,
+    lightText: true,
+    lightTopLine: true,
+    lightTextDesc: true,
     topLine: 'Web Applications',
     headline: 'The Best Web Design and Development Services',
     description:

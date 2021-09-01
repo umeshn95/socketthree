@@ -7,16 +7,13 @@ import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
 function About() {
   return (
     <>
-      {/* <InfoSection {...homeObjOne} />
+    
+<Aboutus/>
 
-      <InfoSection {...homeObjTwo} /> */}
-  <Aboutus></Aboutus>
-      
-
-      <Counter></Counter>
 
     <AboutSecret></AboutSecret>
     <Whatwedo></Whatwedo>
+    <Counter></Counter>
 
     <ScrollToTop></ScrollToTop>
     </>

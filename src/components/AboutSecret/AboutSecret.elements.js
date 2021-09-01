@@ -2,11 +2,12 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const AboutSecrSection = styled.div`
-padding:100px;
-background:#6135A1;
+padding:10px 210px 10px 210px;
+background-color: #323232;
+
+
 @media screen and (max-width: 768px) {
   padding:10px;
-  display:none;
 }
 `;
 export const Main = styled.div`
@@ -32,7 +33,7 @@ export const AboutSecrWrapper = styled.div`
 
 export const AboutSecrHeading = styled.h1`
   color: white;
-  font-size: 48px;
+  font-size: 40px;
   margin-bottom: 24px;
   text-align: center;
 
@@ -67,16 +68,15 @@ grid-template-rows:0.3fr 1fr;
 export const AboutSecrCardInfo = styled.div`
 line-height: 1.375;
 padding:25px;
-font-family: 'Roboto Condensed', sans-serif;
-font-size: 1rem;
+font-size: 13px;
 color: #5e5e5e;
 font-weight:500;
+opacity:0.7;
 `;
 
 export const AboutSecrCardIcon = styled.div`
 align-self:center;
 justify-self:center;
-font-family: 'Roboto Condensed', sans-serif;
 font-size: 1rem;
 color: #5e5e5e;
 `;

@@ -126,7 +126,7 @@ position:relative;
 justify-self:center;
 width: 230px;
 border-radius: 999px;
-background-color:#54e346 ;
+background-color:#3DB2FF ;
 
 border-width: 0vw;
 color: white;
@@ -134,13 +134,13 @@ font-weight: 700;
 font-size: 18px;
 outline: none;
 cursor:pointer;
-text-shadow: 0 8px 16px #54e346;
+text-shadow: 0 8px 16px #3DB2FF;
 height:45px;
 &:after{
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 23px solid #54e346;
+    border: 23px solid #3DB2FF;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -149,7 +149,7 @@ height:45px;
     animation: ring 0.5s infinite;
 }
 &:hover{
-    box-shadow: 0 0 0 2px #54e346;
+    box-shadow: 0 0 0 2px #3DB2FF;
 }
 
   outline: none;

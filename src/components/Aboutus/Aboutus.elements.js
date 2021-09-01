@@ -7,11 +7,12 @@ margin-bottom:60px;
 padding:0;
 box-size:border-box;
 background:white;
-height:700px;
+height:850px;
 width:100%;
 position:relative;
 font-family: 'Arvo', serif;
 @media screen and (max-width: 768px) {
+  height:100%;
 }
   }
 `;
@@ -25,6 +26,7 @@ padding:100px 160px 0 200px;
 grid-template-columns: 1fr;
 grid-template-rows:0.58fr 1fr;
   padding:30px;
+
 }
   }
 `;
@@ -53,9 +55,7 @@ width:60%;
 line-height:100%;
 opacity:0.8;
 @media screen and (max-width: 768px) {
-  width:100%;
-
-
+  width:90%;
 }
   
 `;
@@ -143,7 +143,7 @@ align-self:center;
 
 justify-self:center;
 opacity:0.7;
-  }
+  
 `;
 export const Description = styled(motion.div)`
 cursor:pointer;

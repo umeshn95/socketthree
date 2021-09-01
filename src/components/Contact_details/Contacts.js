@@ -15,8 +15,7 @@ width:100%;
 position:relative;
 font-family: 'Arvo', serif;
 @media screen and (max-width: 768px) {
-  top:1200px;
-    }
+display:none;    }
   }
 `;
 export const MainGrid = styled.div`

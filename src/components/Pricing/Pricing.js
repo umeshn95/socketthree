@@ -25,7 +25,7 @@ function Pricing({AOS}) {
 }, [])
   return (
     <IconContext.Provider value={{ color: '#5FDDE5', size: 98 }}>
-      <PricingSection  >
+      <PricingSection>
         <PricingWrapper>
           
           <PricingHeading>Our Services</PricingHeading>

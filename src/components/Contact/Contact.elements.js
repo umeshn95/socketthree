@@ -389,7 +389,17 @@ box-shadow: 0px 0px 0px 0px #3dc21b;
 
 
 
+//Component_nda
 
+export const Grid= styled.div`
+display:grid;
+grid-template-columns:repeat(3,1fr);
+column-gap:30px;
+@media only screen and (max-width:768px){
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+`
 
 
 

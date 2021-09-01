@@ -10,7 +10,7 @@ export const homeObjThree = {
   topLine: 'Easy Setup',
   headline: 'Super fast and simple onboarding process',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+    "Get everything set up and ready in under few weeks. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Start Now',
   imgStart: 'start',
   img: require('../../images/svg-18.svg'),

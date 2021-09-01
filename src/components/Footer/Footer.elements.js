@@ -3,13 +3,17 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #6135A1;
+  background-color: #323232;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: ${({ show }) => (show ? "" : "none")};
   position: relative;
+  height:400px;
+  @media screen and (max-width: 760px) {
+    height:100%;
+  }
 `;
 
 // export const FooterSubscription = styled.section`
@@ -89,7 +93,7 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 60px;
+  margin: 40px;
   text-align: left;
   width: 200px;
   box-sizing: border-box;

@@ -3,6 +3,7 @@ import {ContactSec,Contactgrid1,ContactHeader,ContactForm,ContactTextHeader,Cont
 import {Container} from '../../globalStyles';
 import { FaCheckCircle } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
+import Component_nda from './Component_nda';
 
 
 function Contact()
@@ -153,8 +154,9 @@ const saveUser=(show)=>{
 
   
 </ContactSecres>
-</IconContext.Provider>
 
+</IconContext.Provider>
+<Component_nda/>
         
             </>
         )

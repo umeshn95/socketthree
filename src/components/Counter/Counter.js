@@ -13,7 +13,7 @@ function Counter() {
     }, [])
     return (
         <>
-        <IconContext.Provider value={{ color: '#5C33F6', size: 98 }}>
+        <IconContext.Provider value={{ color: '#6135A1', size: 70 }}>
 
         <Counterexperience data-aos='fade-up'>
             <CounterMain>

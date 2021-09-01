@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export const Homepage1_main = styled.div`
   padding: 0px;
   margin: 0px;
-  height: 700px;
+  height: 720px;
   background: #6135A1;
   @media screen and (max-width: 991px) {
     height: 500px;

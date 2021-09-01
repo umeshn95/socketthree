@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 
 export const Main = styled.div`
 font-family: 'Arvo', serif;
-margin:0;
 color:white;
 padding:0;
 box-size:border-box;
-background:#6135A1;
+// background:#6135A1;
+background-color: #323232;
+
 height:300px;
 width:100%;
 position:relative;
@@ -21,7 +22,8 @@ display:none;
   }
 `;
 export const MainGrid = styled.div`
-padding:30px 0 30px 200px;
+padding:90px 100px 50px 100px;
+
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
 @media screen and (max-width: 768px) {
@@ -31,7 +33,7 @@ grid-template-columns: 1fr 1fr 1fr;
 `;
 export const Subgrid = styled.div`
 display:grid;
-grid-template-rows: 0.1fr 0.3fr;
+grid-template-columns: 1fr 1fr;
 
 svg{
   height:550px;
@@ -45,11 +47,10 @@ svg{
 `;
 export const SuperSubgrid = styled.div`
 display:grid;
-grid-template-rows: 0.5fr 1fr ;
+grid-template-rows: 0.5fr 1fr 0.5fr;
 @media screen and (max-width: 768px) {
   grid-template-columns:1fr;
   grid-template-rows:1fr 1fr;
 }
 `;
 
-   

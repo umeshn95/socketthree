@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const InfoSec = styled.div`
+
+
   color: #fff;
   padding: 160px 0px;
   background-color: ${({ lightBg }) => (lightBg ? '#6135A1' : 'white')};
@@ -56,6 +58,8 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
+font-family: 'Arvo', serif;
+
   color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '')};
   font-size: 18px;
   line-height: 16px;
@@ -74,6 +78,8 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.h1`
+font-family: 'Arvo', serif;
+
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
@@ -82,6 +88,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
+
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;

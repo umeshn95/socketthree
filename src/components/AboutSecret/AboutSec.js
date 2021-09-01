@@ -14,7 +14,7 @@ function AboutSec(props) {
            <Main>
            <AboutSecrCard>
             <AboutSecrCardIcon>
-              <h1>{props.heading}</h1>
+              <h2>{props.heading}</h2>
               {props.icon}
             </AboutSecrCardIcon>
             <AboutSecrCardInfo>

@@ -22,7 +22,7 @@ function AboutSecret({AOS}) {
 
 }, [])
   return (
-    <IconContext.Provider value={{ color: '#5FDDE5', size: 104 }}>
+    <IconContext.Provider value={{ color: '#5FDDE5', size: 60 }}>
       <AboutSecrSection>
         <AboutSecrWrapper>
           

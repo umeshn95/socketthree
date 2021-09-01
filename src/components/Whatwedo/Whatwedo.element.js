@@ -8,7 +8,7 @@ padding:50px;
 
 box-size:border-box;
 background:white;
-height:700px;
+height:800px;
 width:100%;
 position:relative;
 font-family: 'Arvo', serif;

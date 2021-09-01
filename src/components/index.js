@@ -17,6 +17,9 @@ export { default as Aboutus } from "./Aboutus/Aboutus";
 export { default as Whatwedo } from "./Whatwedo/Whatwedo";
 export { default as Counteranimation } from "./Counteranimation/Counteranimation";
 export { default as Contact_details } from "./Contact_details/Contact";
+export { default as Service } from "./Service/Service";
+export { default as Webdevelopment } from "./Webdevelopment/Webdevelopment";
+export { default as Brand } from "./Brand/Brand";
 
 
 

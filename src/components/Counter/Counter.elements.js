@@ -2,15 +2,12 @@ import styled from "styled-components";
 
 export const Counterexperience = styled.div`
 color: #fff;
-padding:110px 110px 20px 110px;
+padding:0px 110px 20px 110px;
 display:block; 
 position:relative; 
-height:400px;
-margin-top:150px;
 @media screen and (max-width: 768px) {
     padding:0;
     height:auto;
-    margin-top:1300px;
 }
 
 
@@ -30,10 +27,10 @@ grid-template-rows:0.8fr 0.6fr 0.6fr 0.6fr 0.6fr;
 
 export const Countersub = styled.div`
 padding:10px;
-color: #5C33F6;
-font-size:28px;
+color: black;
+font-size:26px;
 align-self:center;
-
+opacity:0.7;
 ;
 `
 
@@ -62,18 +59,19 @@ align-self:center;
 `
 
 export const CounterNumber = styled.div`
-font-size:40px;
+font-size:30px;
 font-weight:bold;
 justify-self:center;
 align-self:center;
-color: #5C33F6;
+color: #6EE348;
 `
 
 export const CounterType = styled.div`
-font-size:25px;
+font-size:23px;
 justify-self:center;
 align-self:center;
-color: #5C33F6;
+color: black;
+opacity:0.6;
 `
 
 

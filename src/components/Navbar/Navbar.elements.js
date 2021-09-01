@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background:#6135A1; 
+  background:white; 
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   font-weight:bold;
-
+position:sticky;
   top: 0;
   z-index: 999;
 `;
@@ -101,7 +101,7 @@ export const NavItemBtn = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: white;
+  color: black;
   font-family: 'Lato', sans-serif;
   display: flex;
   align-items: center;

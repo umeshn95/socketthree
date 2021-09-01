@@ -1,14 +1,13 @@
 import React from 'react';
-import { Counter, InfoSection } from '../../components';
+import { TechStack, Webdevelopment } from '../../components';
 import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree,homeObjTwo,homeObjOne } from './Data';
 
 function Webdev() {
   return (
     <>
-      <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjOne} />
+    <Webdevelopment></Webdevelopment>
+    <TechStack></TechStack>
       <ScrollToTop></ScrollToTop>
     </>
   );
