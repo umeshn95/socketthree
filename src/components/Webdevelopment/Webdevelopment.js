@@ -19,7 +19,7 @@ import { AiOutlineBulb, AiOutlineCloudSync, AiOutlineSetting } from 'react-icons
 function Webdevelopment() {
 
     return (
-        <IconContext.Provider value={{ color: "#6EE348", size:'50' }}>
+        <IconContext.Provider value={{ color: "#5C33F6", size:'50' }}>
 <Main>
 <Component_header heading='Problems we solve' description='Design, development and strategy solutions that deliver results'/>
 <Header heading='Wide Range of Software Development Services'/>

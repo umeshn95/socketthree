@@ -151,11 +151,7 @@ function Footer() {
                   textDecoration: "none",
                 }}
               >
-                <h4>
-                  <BiPhone />
-                  Phone:
-                </h4>
-                +91 9540424976
+               
               </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -242,6 +238,22 @@ function Footer() {
                 <GiIndianPalace />
                 <span>India</span>+91 954-042-4976
               </FooterLink>
+              <FooterLink
+                style={{
+                  cursor: "text",
+                  fontSize: "15px",
+                  color: "currentColor",
+                  textDecoration: "none",
+                }}
+              >
+                {" "}
+                <h4>
+                  <AiOutlineMail />
+                  Email:
+                </h4>
+                biz@zetamonk.com
+              </FooterLink>
+              
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

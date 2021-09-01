@@ -30,8 +30,7 @@ justify-content:center;
 export const Headings = styled.div`
 font-size:55px;
 font-weight:bold;
-color:#64BF2D;
-font-family: 'Arvo', serif;
+color:#5C33F6;
 text-align:center;
 @media only screen and (max-width:768px){
   font-size:30px;
@@ -40,7 +39,6 @@ text-align:center;
 export const Description = styled.div`
 font-size:17px;
 color:black;
-opacity:0.6;
 
 
 `

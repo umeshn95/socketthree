@@ -24,7 +24,7 @@ column-gap:10px;
 padding:100px 160px 0 200px;
 @media screen and (max-width: 768px) {
 grid-template-columns: 1fr;
-grid-template-rows:0.58fr 1fr;
+grid-template-rows:1fr;
   padding:30px;
 
 }
@@ -114,8 +114,9 @@ column-gap:20px;
 row-gap:50px;
 @media screen and (max-width: 768px) {
   grid-template-columns:1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr;
   row-gap:10px;
+  display:none;
 }
   }
 `;

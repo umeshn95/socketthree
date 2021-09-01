@@ -9,7 +9,7 @@ import {
 function Component_services_types(props) {
   return (
     <TwoRowGrid style={{border:'1px solid rgba(0,0,0,0.3)', borderRadius:'5px'}} >
-          <Headc style={{textAlign:'center'}}>
+          <Headc style={{textAlign:'center',color:'#5C33F6'}}>
 
       {props.head}
       </Headc>
