@@ -63,7 +63,7 @@ function Course_card({ChangeColor1,ChangeColor2,ChangeColor3}) {
        
         projects='SUPPORT'
         project_details={color2?'Lifetime Support':color1?'Lifetime Support':'Lifetime Support'}
-        button={color2?'₹4999/- only':color1?'₹999/- only':'₹7999/- only'}
+//         button={color2?'₹4999/- only':color1?'₹999/- only':'₹7999/- only'}
         />
         <Single_card
         package = 'STANDARD'        
@@ -86,7 +86,7 @@ function Course_card({ChangeColor1,ChangeColor2,ChangeColor3}) {
        
         projects='SUPPORT'
         project_details={color2?'Lifetime Support':color1?'Lifetime Support':'Lifetime Support'}
-        button={color2?'₹7999/- only':color1?'₹2999/- only':'₹9999/- only'}
+//         button={color2?'₹7999/- only':color1?'₹2999/- only':'₹9999/- only'}
         
         />
         <Single_card
@@ -111,7 +111,7 @@ function Course_card({ChangeColor1,ChangeColor2,ChangeColor3}) {
         tools6={color2?'':color1?'':'API'}
         projects='SUPPORT'
         project_details={color2?'Lifetime Support':color1?'Lifetime Support':'Lifetime Support '}
-        button={color2?'₹9999/- only':color1?'₹4999/- only':'₹19999/- only'}
+//         button={color2?'₹9999/- only':color1?'₹4999/- only':'₹19999/- only'}
         
         />
   
